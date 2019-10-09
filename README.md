@@ -15,7 +15,7 @@ services:
   [...]
 
   octant:
-    image: "rhyu/octant:latest"
+  image: octant:latest"
     network_mode: host
     environment:
       - "OCTANT_DISABLE_OPEN_BROWSER=true"
